@@ -1,9 +1,13 @@
 const express = require( 'express' );
+const cors = require( 'cors' );
 
 const app = express();
 
 // Load weather data
 const data = require( './data.js' );
+
+// Enable all CORS requests
+app.use(cors());
 
 // GET route
 app.get( '/weather', ( req, res ) => {
