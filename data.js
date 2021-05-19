@@ -1,6 +1,6 @@
 const weatherData = [
   {
-    'city': 'muscat',
+    'city': 'banjul',
     'temperature (C)': '37 C',
     'temperature (F)': '98.6 F',
   },
@@ -29,5 +29,15 @@ const weatherData = [
     'temperature (C)': '24 C',
     'temperature (F)': '75 F',
   },
+   {
+    'city': 'dakar ',
+    'temperature (C)': '22 C',
+    'temperature (F)': '71 F',
+  },
+    {
+    'city': 'lagos ',
+    'temperature (C)': '27 C',
+    'temperature (F)': '79 F',
+  }
 ];
 module.exports = weatherData;
