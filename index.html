@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Weather App</title>
+	</head>
+	<body>
+		<form>
+			<div class="form-item">
+				<label for="city">City Name: </label>
+				<input
+					type="text"
+					placeholder="Enter a city name"
+					id="city"
+					name="city"
+					required
+				/>
+			</div>
+			<button type="submit">SUBMIT</button>
+		</form>
+		<div class="error-message"></div>
+		<div class="weather-info">
+			<h1 class="cityName"></h1>
+			<h4 class="celsius"></h4>
+			<h4 class="fahrenheit"></h4>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
